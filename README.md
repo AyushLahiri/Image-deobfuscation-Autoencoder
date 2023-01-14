@@ -1,6 +1,6 @@
 # Image-deobfuscation-Autoencoder
 
-This study aims to reconstruct obfuscated facial and demonstrates that modern image recognition methods based on neural networks can recover hidden in-formation from images. I have used a convolutional auto-encoder that takes noisy, pixelated, or blurred
+This study aims to reconstruct obfuscated facial and demonstrates that modern image recognition methods based on neural networks can recover hidden in-formation from images. I have used a convolutional auto-encoder that takes noisy, pixelated, or blurred
 images as input and attempts to re-construct recognizable facial images. 
 We create training datasets using Umass Amherst's ["Faces in the wild"](http://vis-www.cs.umass.edu/lfw/) Dataset. We introduce pixelation, speckle noise and gaussian blur to these images to create our input data and use the original images as our output label.
 For training, pixel, perceptual and a weighted combination of the two have been used as loss functions.
